@@ -1,0 +1,7 @@
+{
+  "name": "keyless-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

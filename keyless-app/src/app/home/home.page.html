@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <br>
+    <ion-button expand="block" fill="outline" (click)="connect()">Connect</ion-button>
+    <br>
+    <ion-button expand="block" (click)="locate()">Locate</ion-button>
+    <br>
+    <ion-button expand="block" (click)="checkIn()">CheckIn</ion-button>
+    <br>
+    <ion-button expand="block" (click)="lock()">Lock</ion-button>
+    <br>
+    <ion-button expand="block" (click)="unlock()">Unlock</ion-button>
+    <br>
+    <ion-button expand="block" (click)="checkOut()">CheckOut</ion-button>
+    <br>
+    <ion-button expand="block" fill="outline" (click)="disconnect()">Disconnect</ion-button>
+  </div>
+</ion-content>
